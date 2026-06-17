@@ -1,0 +1,23 @@
+{
+  "cluster": "devnet",
+  "rpcUrl": "",
+
+  "keypairPath": "./keypair.json",
+
+  "token": {
+    "name": "My Meme Coin",
+    "symbol": "MEME",
+    "decimals": 9,
+    "supply": 1000000000,
+    "metadataUri": "https://example.com/replace-me-with-your-metadata.json"
+  },
+
+  "_comments": {
+    "cluster": "'devnet' for testing (free), or 'mainnet-beta' for the real launch.",
+    "rpcUrl": "Leave empty to use the public RPC for the chosen cluster. For mainnet a paid RPC (Helius/QuickNode/Triton) is strongly recommended.",
+    "keypairPath": "Path to the WALLET that pays and receives the supply. Use YOUR own keypair. Generate one with 'npm run keygen' or export from Phantom/Solflare.",
+    "decimals": "9 is the Solana convention. Most memecoins use 6 or 9.",
+    "supply": "Total number of whole tokens to mint (NOT including decimals). 1,000,000,000 = 1 billion.",
+    "metadataUri": "URL to a JSON file describing the token (name/symbol/description/image). Run 'npm run upload' to create one, or host your own."
+  }
+}
