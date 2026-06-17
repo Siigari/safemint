@@ -27,6 +27,16 @@
   gap: 12px;
 }
 
+.gh-link {
+  display: inline-flex;
+  align-items: center;
+  color: var(--muted);
+  transition: color 0.15s;
+}
+.gh-link:hover {
+  color: var(--text);
+}
+
 .net-toggle {
   display: inline-flex;
   background: var(--panel-2);
